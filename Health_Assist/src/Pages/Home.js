@@ -8,7 +8,7 @@ import Reviews from "../Components/Reviews";
 import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
 
-//wefpjocpoj
+//wefpjocpojwed
 function Home() {
   return (
     <div className="home-section">
