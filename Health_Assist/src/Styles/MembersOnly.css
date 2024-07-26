@@ -1,0 +1,130 @@
+/* MembersOnly.css */
+.members-section {
+    padding: 32px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.members-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.members-title span {
+    position: relative;
+}
+
+.members-title span::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius: 8px;
+    left: 0;
+    bottom: -10px;
+}
+
+.members-description {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.members-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 24px 0 12px;
+}
+
+.members-benefits, .members-cost, .members-join {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin: 12px 0;
+    text-align: left;
+}
+
+.members-benefits {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.members-login-form {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.members-login-form input {
+    width: 100%;
+    padding: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.members-login-form button {
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #9D2553;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.members-login-form button:hover {
+    background-color: #7a1b3d;
+}
+
+.members-error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.members-logout-button {
+    margin-top: 24px;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.members-logout-button:hover {
+    background-color: #222;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .members-title {
+        font-size: 28px;
+    }
+
+    .members-description, .members-subtitle, .members-benefits, .members-cost, .members-join {
+        font-size: 14px;
+    }
+}
